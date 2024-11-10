@@ -5,7 +5,6 @@ public class BookExample {
     // addPage , assertSubString
 
     /*
-
     public void testGetPageHieratchyAsXml() throws Exception
     {
         crawler.addPage(root, PathParser.parse("PageOne"));
@@ -61,8 +60,6 @@ public class BookExample {
         assertSubString("<Test", xml);
     }
 
-
-
-     */
+*/
 
 }

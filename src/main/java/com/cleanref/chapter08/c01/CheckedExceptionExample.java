@@ -35,9 +35,6 @@ public class CheckedExceptionExample {
         } catch (SQLException e) {
             System.out.println("Veritabanı bağlantı hatası: " + e.getMessage());
         }
-
-
-
     }
 
 }

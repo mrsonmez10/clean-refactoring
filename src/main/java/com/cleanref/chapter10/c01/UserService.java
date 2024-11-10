@@ -6,7 +6,6 @@ import java.util.Map;
 public class UserService {
 
     // inceleyelim..
-
     private Map<String, String> userDatabase = new HashMap<>();
 
     public void registerUser(String username, String password) {

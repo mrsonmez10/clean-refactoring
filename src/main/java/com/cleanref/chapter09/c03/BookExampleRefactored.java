@@ -14,6 +14,7 @@ public class BookExampleRefactored {
                 "<name>PageOne</name>", "<name>PageTwo</name>", "<name>ChildOne</name>"
         );
     }
+
     public void testSymbolicLinksAreNotInXmlPageHierarchy() throws Exception {
         WikiPage page = makePage("PageOne");
         makePages("PageOne.ChildOne", "PageTwo");
@@ -32,7 +33,6 @@ public class BookExampleRefactored {
         assertResponseIsXML();
         assertResponseContains("test page", "<Test");
      }
-
-     */
+*/
 
 }
