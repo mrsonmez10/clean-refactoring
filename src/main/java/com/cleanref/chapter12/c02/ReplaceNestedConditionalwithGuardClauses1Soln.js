@@ -16,12 +16,7 @@ function getPayAmount() {
     return result;
 }
 
-function getPayAmount() {
-    if (isDead) return deadAmount();
-    if (isSeparated) return separatedAmount();
-    if (isRetired) return retiredAmount();
-    return normalPayAmount();
-}
+// TODO together
 
 export function payAmount(employee) {
     if (employee.isSeparated) return { amount: 0, reasonCode: "SEP" };

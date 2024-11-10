@@ -8,6 +8,6 @@ abstract class Employee {
     }
 
     public double calculateSalesCommission(double sales) {
-        return sales * 0.1; // %10 komisyon
+        return sales * 0.1;
     }
 }
