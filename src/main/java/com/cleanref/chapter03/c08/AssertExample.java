@@ -2,7 +2,7 @@ package com.cleanref.chapter03.c08;
 
 public class AssertExample {
 
-    public static void assertEquals(String expected, String actual){
+    public static void assertEquals(String expected, String actual) {
         if (expected.equalsIgnoreCase(actual)){
             // TODO..
         }
