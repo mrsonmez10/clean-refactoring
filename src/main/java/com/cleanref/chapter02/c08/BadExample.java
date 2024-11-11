@@ -2,7 +2,7 @@ package com.cleanref.chapter02.c08;
 
 public class BadExample {
 
-    private static void printGuessStatistics(char candidate, int count) {
+    private static void make(char candidate, int count) {
         String number;
         String verb;
         String pluralModifier;
@@ -24,5 +24,5 @@ public class BadExample {
         );
         System.out.println(guessMessage);
     }
-    
+
 }
