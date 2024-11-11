@@ -8,9 +8,8 @@ public class DefineSingleton {
         // TODO Auto-generated constructor stub
     }
 
-
-    public static DefineSingleton getInstance()
-    {
+    public static DefineSingleton getInstance() {
         return ds;
     }
+
 }

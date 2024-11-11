@@ -7,8 +7,7 @@ public class LazyCache implements Cache {
     private static LazyCache instance;
     private HashMap<Object, Object> map;
 
-    private LazyCache()
-    {
+    private LazyCache() {
         map = new HashMap<Object, Object>();
     }
 
@@ -20,9 +19,8 @@ public class LazyCache implements Cache {
         return map.get(key);
     }
 
-    public static LazyCache getInstance(){
-        if(instance == null)
-        {
+    public static LazyCache getInstance() {
+        if(instance == null) {
             instance = new LazyCache();
         }
         return instance;
