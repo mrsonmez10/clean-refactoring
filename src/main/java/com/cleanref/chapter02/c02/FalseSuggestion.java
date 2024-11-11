@@ -6,6 +6,7 @@ public class FalseSuggestion {
     static int l;
 
     public static void main(String[] args) {
+
         {
             int a = l;
             if ( O == l )

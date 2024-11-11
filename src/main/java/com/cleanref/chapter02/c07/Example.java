@@ -13,6 +13,4 @@ public class Example {
         return bindedData;
     }
 
-
-
 }

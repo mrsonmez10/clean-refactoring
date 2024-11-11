@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ExampleOne {
 
-    int d; // elapsed time in day
+
 
     public List<int[]> getThem(int[][] theList) {
         List<int[]> list1 = new ArrayList<>();

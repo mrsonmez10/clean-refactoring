@@ -24,4 +24,5 @@ public class BadExample {
         );
         System.out.println(guessMessage);
     }
+    
 }

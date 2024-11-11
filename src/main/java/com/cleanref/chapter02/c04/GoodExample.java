@@ -8,5 +8,9 @@ public class GoodExample {
     private Date modificationTimestamp;
     private final String recordId = "102";
 
+    int elapsedTimeInDays;
+    int daysSinceCreation;
+    int daysSinceModification;
+    int fileAgeInDays;
 
 }

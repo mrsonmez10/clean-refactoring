@@ -10,5 +10,4 @@ public class MonetaryOperations {
         System.out.println(a-b);
     }
 
-
 }

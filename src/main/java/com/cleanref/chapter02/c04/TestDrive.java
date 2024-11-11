@@ -6,7 +6,6 @@ public class TestDrive {
 
         // insan sosyal bir varlıktır! -- Tartışırken isimler üzerinden tartışırız..
 
-
     }
 
 }
