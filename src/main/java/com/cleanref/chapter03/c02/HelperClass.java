@@ -6,10 +6,6 @@ public class HelperClass {
         return "Button Answer";
     }
 
-    public String getEarlyAnswer(){
-        return "Early answer";
-    }
-
     public String getAnswer(String nlpResult){
         return "Normal Answer";
     }

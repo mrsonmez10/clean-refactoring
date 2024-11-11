@@ -4,18 +4,18 @@ public class BadExample {
 
     private HelperClass helperClass;
 
-    public void getAnswerFlow(ChannelRequest channelRequest) {
+    public String getAnswerFlow(ChannelRequest channelRequest) {
         if (channelRequest.isPostback() && channelRequest.isEarlyControl()){
             /*
 
              */
-            helperClass.getButtonAnswer();
+            return helperClass.getButtonAnswer();
         }
         String nlpResult = helperClass.nlpEngine();
         /*
             Do stuff...
          */
-        helperClass.getAnswer(nlpResult);
+        return helperClass.getAnswer(nlpResult);
     }
 
 }

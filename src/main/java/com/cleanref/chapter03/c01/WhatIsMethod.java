@@ -6,12 +6,7 @@ public class WhatIsMethod {
         /*
             -  // metot nedir?:  belirli işlemleri gerçekleştirmemizi sağlayan talimatlar bütünüdür.
             // https://trekhleb.medium.com/solid-principles-around-you-6db2f0e12139
-
-
          */
-
     }
-
-
 
 }
