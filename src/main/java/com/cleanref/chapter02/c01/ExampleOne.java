@@ -5,8 +5,6 @@ import java.util.List;
 
 public class ExampleOne {
 
-
-
     public List<int[]> getThem(int[][] theList) {
         List<int[]> list1 = new ArrayList<>();
         for (int[] x : theList)
