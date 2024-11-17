@@ -4,6 +4,7 @@ import com.cleanref.chapter04.c02.support.DbOperations;
 import com.cleanref.chapter04.c02.support.ThirdPartyService;
 
 public class TestDrive {
+    // TODO together
 
     final DbOperations dbOperations;
     final ThirdPartyService thirdPartyService;

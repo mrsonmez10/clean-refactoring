@@ -22,4 +22,6 @@ public class TestDrive {
         System.out.println(person2);
     }
 
+    // LOMBOK: https://projectlombok.org/features/Data
+
 }
